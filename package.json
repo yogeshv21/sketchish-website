@@ -10,6 +10,7 @@
     "deploy": "next build && firebase deploy --only functions,hosting"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.41.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.0.3",
     "next": "14.0.4",
